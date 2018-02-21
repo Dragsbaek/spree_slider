@@ -1,4 +1,4 @@
-class Spree::Slide < ActiveRecord::Base
+class Spree::Slide < Spree::Base
 
   has_and_belongs_to_many :slide_locations,
                           class_name: 'Spree::SlideLocation',
